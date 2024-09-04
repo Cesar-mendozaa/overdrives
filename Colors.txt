@@ -1,0 +1,6 @@
+#8FCED5 | extra
+#F4FDFE | Brackground
+#002E33 | title and subtitle
+#2B7780 | hover
+#56A2AA | simple button
+#AAAA   | texto
