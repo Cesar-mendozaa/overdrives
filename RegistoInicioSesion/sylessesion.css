@@ -1,0 +1,96 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4FDFE;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h2 {
+    color: #002E33;
+    text-align: left;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #56A2AA; /* Color y grosor de la línea */
+    display: inline-block;
+}   
+
+img {
+    border-radius: 50%;
+}
+/* Contenedor Principal */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    margin: 50px auto;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid para alinear los inputs */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Espacio entre filas y columnas */
+}
+
+/* Estilos del Formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 25px;
+    border: 1.5px solid #56A2AA;
+    box-sizing: border-box;
+    flex: 1;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #56A2AA;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #2B7780;
+
+}
+
+img {
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.form-groupprofile {
+    text-align: center;
+}
+
+.actualizar {
+    margin-top: -20px;
+    margin-right: -50px;
+}
