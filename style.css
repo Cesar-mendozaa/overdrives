@@ -1,17 +1,17 @@
 /* Estilos Generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: linear-gradient(to right,#2b7780, #97c2c7);
 }
 
 h1, h2, h3, h4 {
-    color: #333;
+    color: #F4F4F4;
 }
 
 header {
-    background-color: #007BFF;
     color: #fff;
     padding: 10px 0;
     display: flex;
@@ -47,13 +47,17 @@ header nav ul li a:hover {
 
 .h2heroac {
     text-align: left;
-    font-size: 3555em;
+}
+
+.p-hero {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    padding-left: 40px;
 }
 
 .hero {
-    background-color: #007BFF;
-    color: #fff;
-    text-align: center;
+    background: linear-gradient(to right,#2b7780, #97c2c7);
     padding: 50px 20px;
 }
 
@@ -72,6 +76,8 @@ header nav ul li a:hover {
     top: -300px;
     font-size: 2.5em;
 }
+
+
 .chantal33 {
     background-color: #0c7580;
     color: #fff;
@@ -85,12 +91,13 @@ header nav ul li a:hover {
 }
 .h2-hero {
     text-align: right;
-    padding-right: 250px;
+    margin-right: 125px;
 }
 
 .hero h2 {
     margin-top: 0;
     font-size: 2.5em;
+    margin-left: 40px;
 }
 
 .santal33 {
@@ -103,59 +110,85 @@ header nav ul li a:hover {
     text-align: right;
 }
 .cuadro {
+    padding: 10px;
     width: 400px;
     height: 300px;
     background-color: #fff;
     border: 2px solid #2980b9;
     margin-top: 1px; 
-    margin-left: 825px;
+    margin-left: 700px;
     border-radius: 20px;
+    border: none;
 }
 
+.cuadro h3 {
+    text-align: center;
+    color: #000000;
+}
+
+.cuadro li {
+    padding: 2px;
+    margin: auto;
+    margin: 10px;
+}
+
+.cuadros{
+    text-align: center;
+    color: #000000;
+}
 
 .cuadro1 {
     width: 300px;
     height: 300px;
-    background-color: #fff;
-    border: 2px solid #2980b9;
-    margin-top: 20px; 
-    margin-left: 280px;
+    background-color: #fff; 
     border-radius: 20px;
+    margin-left: 100px;
+    padding: 10px;
 }
 
 .cuadro2 {
     width: 300px;
     height: 300px;
     background-color: #fff;
-    border: 2px solid #2980b9;
-    margin-top: -305px; 
-    margin-left: 590px;
+    margin-top: -315px; 
+    margin-left: 450px;
     border-radius: 20px;
+    padding: 10px;
 }
 
 .ch2 { 
     text-align: center;
+    font-size: 40px;
 }
+
 .cuadro3 {
     width: 300px;
     height: 300px;
     background-color: #fff;
     border: 2px solid #2980b9;
     margin-top: -300px; 
-    margin-left: 900px;
+    margin-left: 800px;
     border-radius: 20px;
-}
-.img1 { 
-    height: 500px;
-    margin-right: 550px;
-    margin-top: -280px;
-}
-.hero p {
-    font-size: 2.5em;
-    text-align: left;
+    border: none;
+    padding: 10px;
 }
 
-.hero button {
+.textoComo {
+    color: black;
+}
+
+.img1{ 
+    height: 500px;
+    width: 500px;
+    margin-right: 550px;
+    margin-top: -280px;
+    margin-left: 60px;
+}
+
+.imgd {
+    border-radius: 20px; 
+}
+.buttonClass {
     background-color: #ffde59;
     color: #000000;
     padding: 20px 30px;
@@ -163,8 +196,9 @@ header nav ul li a:hover {
     cursor: pointer;
     font-size: 1em;
     margin-top: 20px;
-    margin-right: 1000px;
     border-radius: 50px;
+    margin-left: 40px;
+    margin-bottom: 150px;
 }
 
 .hero button:hover {
@@ -242,6 +276,11 @@ header nav ul li a:hover {
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.textoPorque {
+    font-size: 20px;
+    
 }
 
 .resultados h3 {
@@ -351,8 +390,8 @@ header nav ul li a:hover {
 
 .boton-modal label {
     padding: 10px 15px;
-    background-color: #0056b3;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     border-radius: 20px;
     cursor: pointer;
     transition: all 300ms ease;
