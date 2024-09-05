@@ -37,7 +37,7 @@
         <h2 class="h2heroac">¿Problemas con tu salud?</h2>
         <p class="p-hero">Algunas personas sufren de problemas y ya sea por falta de tiempo o otros factores <br> no pueden asistir al medico de manera inmediata. <br> Ahi es cuando [nombre] esta para ayudarte.</p>
 
-        <button class="buttonClass" onclick="scrollToForm()"><b>REALIZAR DIAGNOSTICO</b></button>
+        <a href="chatbot/index.html"><button class="buttonClass" onclick="scrollToForm()"><b>REALIZAR DIAGNOSTICO</b></button></a>
     </section>
 
     <div class="hero">
@@ -146,19 +146,20 @@
                 ¿Eres medico o paciente?
             </h2>
             <div>
-                <p>
-                    <button class="btn-usuario">
-                        <a href="RegistoInicioSesion/iniciosesionmedico.html" class="links">
-                            <b>Medico</b>
+                <a href="RegistoInicioSesion/iniciosesionmedico.html" class="links">
+                     <button class="btn-usuario">
+                        <b>Medico</b>
+                            </button>
                         </a>
-                    </button>
-
-                    <button class="btn-usuario">
-                        <a href="RegistoInicioSesion/iniciosesion.html" class="links"><b>Paciente</b></a>
-                        
-                    </button>
-                </p>
-            </div>
+                    <a href="RegistoInicioSesion/iniciosesion.html">
+                        <button class="btn-usuario">
+                            <b>Paciente</b>
+                        </button>
+                    </a>
+                </div>
+                <div class="linkInicio">
+                    <a href="inicioSesion/index.html"><button class="buttonInicio">Iniciar sesion</button></a>
+                </div>
                 <div class="btn-cerrar">
                     <label for="btn-modal">Cerrar</label>
                 </div>
