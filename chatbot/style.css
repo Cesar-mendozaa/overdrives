@@ -13,6 +13,9 @@ body {
     background-color: #e6f1f4;
 }
 
+img {
+    margin-right: 10px;
+}
 .chat-container {
     width: 900px;
     background-color: #f0f7f9;
