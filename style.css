@@ -53,11 +53,98 @@ header nav ul li a:hover {
     padding: 50px 20px;
 }
 
+.hero4f {
+    margin-top: -200px;
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+.text-porque {
+    text-align: left;
+    margin-left: 150px;
+    position: relative;
+    top: -300px;
+    font-size: 2.5em;
+}
+.chantal33 {
+    background-color: #0c7580;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.img2 {
+    margin-left: 500px;
+    width: 500px;
+}
+.h2-hero {
+    text-align: right;
+    padding-right: 250px;
+}
+
 .hero h2 {
     margin-top: 0;
     font-size: 2.5em;
 }
 
+.santal33 {
+    background-color: #0c7580;
+    height: 50px;
+    padding: 50px;
+}
+
+.huelebien { 
+    text-align: right;
+}
+.cuadro {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    border: 2px solid #2980b9;
+    margin-top: 1px; 
+    margin-left: 825px;
+    border-radius: 20px;
+}
+
+
+.cuadro1 {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border: 2px solid #2980b9;
+    margin-top: 20px; 
+    margin-left: 280px;
+    border-radius: 20px;
+}
+
+.cuadro2 {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border: 2px solid #2980b9;
+    margin-top: -305px; 
+    margin-left: 590px;
+    border-radius: 20px;
+}
+
+.ch2 { 
+    text-align: center;
+}
+.cuadro3 {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border: 2px solid #2980b9;
+    margin-top: -300px; 
+    margin-left: 900px;
+    border-radius: 20px;
+}
+.img1 { 
+    height: 500px;
+    margin-right: 550px;
+    margin-top: -280px;
+}
 .hero p {
     font-size: 1.2em;
 }
@@ -168,4 +255,92 @@ header nav ul li a:hover {
 .resultado ul li {
     font-size: 1.2em;
     margin:0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #cfeee9;
+}
+
+.app-promo {
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.promo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00796b;
+    border-radius: 10px;
+}
+
+.phone-image {
+    max-width: 250px;
+}
+
+.promo-content {
+    text-align: left;
+    color: white;
+}
+
+.promo-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.promo-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.download-button {
+    background-color: #fdd835;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.footer div {
+    text-align: center;
+}
+
+.footer div p {
+    margin: 5px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
 }
