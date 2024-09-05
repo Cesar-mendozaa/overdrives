@@ -25,10 +25,10 @@
 
     <!-- Sección Principal -->
     <section class="hero">
-        <h2>¿Problemas con tu salud?</h2>
-        <p>Algunas personas sufren de problemas y ya sea por falta de tiempo o otros factores no pueden asistir al medico de manera inmediata. Ahi es cuando [nombre] esta para ayudarte.</p>
+        <h2 class="h2heroac">¿Problemas con tu salud?</h2>
+        <p>Algunas personas sufren de problemas <br> y ya sea por falta de tiempo o otros factores <br> no pueden asistir al medico de manera inmediata. <br> Ahi es cuando [nombre] esta para ayudarte.</p>
 
-        <button onclick="scrollToForm()">Realizar Evaluacion</button>
+        <button class="buttonClass" onclick="scrollToForm()"><b>REALIZAR DIAGNOSTICO</b></button>
     </section>
 
     <div class="hero">
@@ -60,7 +60,6 @@
         <p>[texto]</p>
     </div> 
 
-    <div class="container">
         <div class="app-promo">
             <div class="promo-header">
                 <img class="phone-image" src="phone.png" alt="Phone Image">
@@ -91,7 +90,6 @@
             </div>
             <p style="text-align: center; color: black;">Copyright © 2024</p>
         </div>
-    </div>  
     <script>
         function scrollToForm() {
             document.getElementById("form-section").scrollIntoView({ behavior: 'smooth' });
