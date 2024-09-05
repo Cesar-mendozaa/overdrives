@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* Estilos básicos */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor del formulario */
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Título del formulario */
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para las etiquetas y campos de entrada */
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s;
+}
+
+/* Cambiar el borde al enfocar en los inputs */
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #007bff;
+}
+
+/* Botón de enviar */
+button[type="submit"] {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Cambiar color del botón al hacer hover */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Enlace para "¿Olvidaste tu contraseña?" */
+.link {
+    margin-top: 20px;
+}
+
+.link-regresar {
+    margin: 5px;
+}
+
+.link a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+/* Cambiar color al hacer hover en el enlace */
+.link a:hover {
+    text-decoration: underline;
+}
