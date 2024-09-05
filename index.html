@@ -19,8 +19,8 @@
                 <li><a href="#">Como Funciona</a></li>
                 <li><a href="#">App</a></li>
                 <li><a href="#">
-                    <div class="boton-iniciosesion">
-                        <label for="btn-iniciosesion">
+                    <div class="boton-modal">
+                        <label for="btn-modal">
                             Crear Cuenta
                         </label>
                     </div>
@@ -96,17 +96,33 @@
             </div>
             <button type="submit">Obtener Prediagnóstico</button>
         </form>
-    </section> -->
-    <input type="text">
+    </section>
+
+    <!-- Ventana modal -->
+    <input type="checkbox" id="btn-modal">
     <div class="container-modal">
         <div class="content-modal">
             <h2>
-                Eres medico o paciente?
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nostrum est culpa dolorem maxime dicta quos, earum deserunt nihil cum placeat itaque tenetur praesentium similique hic nobis recusandae, quidem iusto!</p>
+                ¿Eres medico o paciente?
+            </h2>
+            <div>
+                <p>
+                    <button class="btn-usuario">
+                        <a href="RegistoInicioSesion/iniciosesionmedico.html" class="links">
+                            <b>Medico</b>
+                        </a>
+                    </button>
+
+                    <button class="btn-usuario">
+                        <a href="RegistoInicioSesion/iniciosesion.html" class="links"><b>Paciente</b></a>
+                        
+                    </button>
+                </p>
+            </div>
                 <div class="btn-cerrar">
                     <label for="btn-modal">Cerrar</label>
                 </div>
-            </h2>
+                <label for="btn-modal" class="cerrar-modal"></label>
         </div>
     </div>
 
