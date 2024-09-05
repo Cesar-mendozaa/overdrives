@@ -111,3 +111,20 @@ body {
 .texto-bot {
     color: black;
 }
+
+#capture-btn {
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#photo {
+    display: block;
+    margin-top: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
