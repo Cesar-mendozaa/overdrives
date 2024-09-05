@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interfaz de Chat</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <div class="chat-container">
+        
         <div class="chat-header">
             <img src="img/logo-white.png" alt="Icono" class="icon">
             <p class="chat-title">Vital.IA</p>
@@ -23,10 +26,12 @@
         </div>
 
         <div class="chat-footer">
-            <input type="text" placeholder="Escribe tus síntomas aquí..." class="chat-input" id="chat-input">
-            <button class="send-btn" id="send-btn">➔</button>
             <!-- Botón para abrir la cámara -->
-            <button class="camera-btn" id="camera-btn">📷</button>
+            <button class="camera-btn" id="camera-btn"><i class="fa-solid fa-camera-retro"></i></button>
+
+            <input type="text" placeholder="Escribe tus síntomas aquí..." class="chat-input" id="chat-input">
+            <button class="send-btn" id="send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+            
         </div>
 
     </div>

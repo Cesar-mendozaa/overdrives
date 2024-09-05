@@ -83,6 +83,15 @@ img {
     color: #333;
 }
 
+.camera-btn {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 3px;
+    border: none;
+    font-size: 20px;
+}
+
 .chat-footer {
     display: flex;
     align-items: center;
@@ -100,13 +109,13 @@ img {
 }
 
 .send-btn {
-    background-color:#2b7780;
+    font-size: 20px;
     border: none;
-    color: white;
+    color: black;
     padding: 10px;
     border-radius: 100%;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .texto-bot {
